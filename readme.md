@@ -12,3 +12,8 @@ This project is based on [rtsp-simple-server](https://github.com/aler9/rtsp-simp
 docker build -f docker/Dockerfile . -t rtsp-streamer
 ```
 
+## Run streamer
+
+```sh
+./run_server.sh -video <video path> -p <port>
+```

@@ -5,7 +5,6 @@ SOURCE_PATH=$(dirname $(realpath "$2"))
 FILE_NAME=$(basename "$2")
 PORT=$4
 
-
 echo $SOURCE_PATH
 echo $FILE_NAME
 
